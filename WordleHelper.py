@@ -67,8 +67,6 @@ while True:
     zle = values['-ZLE-']
     brak = values['-BRAK-']
 
-
-
 # Potwierdzone
     for i in range(5):
         if(len(zatwierdzone) == dlugosc):
@@ -91,7 +89,4 @@ while True:
         print(i, end=" ")
     print(len(MozliweSlowa), "\n\n")
     
-
-        
-
 window.close()
