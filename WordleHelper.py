@@ -39,7 +39,6 @@ def BrakLitery(z):
         if(z in wyraz):
             MozliweSlowa.remove(wyraz)
 
-
             
 default = ""
 labels_and_keys = {'Zatwierdzone:':'-ZATWIERDZONE-', 'Złe:':'-ZLE-', 'Brak:':'-BRAK-'}
