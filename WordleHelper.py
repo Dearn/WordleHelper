@@ -50,7 +50,7 @@ sg.set_options(font=font)
 layout = [[sg.Push(), sg.Text(label), sg.Input(default, do_not_clear=False, key=key)]
         for label, key in labels_and_keys.items()] + [[sg.Push(), sg.Button('Send')]] + [[sg.Push(), sg.Button('Clear')]]
 
-window = sg.Window('Window Title', layout)
+window = sg.Window('WordleHelper', layout)
 
 while True:
     event, values = window.read()
